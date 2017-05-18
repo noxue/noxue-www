@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>不学网 - PHP实地培训班</title>
+
+    <!-- Bootstrap -->
+    <link href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+{{--<link href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap-theme.css" rel="stylesheet">--}}
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://apps.bdimg.com/libs/html5shiv/r29/html5.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <!--引用百度地图API-->
+    <style type="text/css">
+        html,body{margin:0;padding:0;}
+        body{padding-top:40px;}
+        .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+        .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+<body data-spy="scroll" data-target="#nx-menu">
+<nav class="navbar navbar-inverse  navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nx-menu" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img alt="Brand" src="{{asset('/images/logo.png')}}" style="height:25px;" />
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="nx-menu">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">课程目标</a></li>
+                <li><a href="#kbxx">开班信息</a></li>
+                <li><a href="#kcap">课程安排</a></li>
+                <li><a href="#kctd">课程特点</a></li>
+                <li><a href="#cjwt">常见问题</a></li>
+                <li><a href="#xxdd">学习地点</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="jumbotron" style="background:#dff0d8;">
+    <div class="container" >
+        <h2>不学网PHP线下培训班第一期 —— 选择决定命运</h2>
+        <h2>不学网，不只是学习知识。更注重学习能力的培养，让您走得更远！</h2>
+        <p style="color:darkgreen;">联系讲师，了解更多行业信息：<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=30670835&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:30670835:51" alt="了解更多信息" title="了解更多信息"/></a> <b>（可免费获取网站开发教程）</b></p>
+    </div>
+</div>
+<div class="container">
+    <div class="panel panel-warning" id="kbxx">
+        <div class="panel-heading">
+            <h3>开班信息</h3>
+        </div>
+        <div class="panel-body table-responsive">
+            <table class="table table-border table-hover">
+                <thead>
+                <tr><th>开班日期</th><th>讲师</th><th>学习周期</th><th>学习地点</th></tr>
+                </thead>
+                <tbody>
+                <tr><td>2017年06月15日</td><td>刘荣飞</td><td>4个月/16周/80天/320节课/800小时</td><td>杭州</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="panel panel-danger" id="kcap">
+        <div class="panel-heading">
+            <h3>课程安排</h3>
+        </div>
+        <div class="panel-body">
+            <img src="{{asset('/images/php/php.png')}}" style="width:100%;" />
+        </div>
+        <div class="panel-footer">
+            <a  class="btn btn-link" target="_blank" href="{{asset('/images/php/php.png')}}">查看大图</a>
+        </div>
+    </div>
+
+    <div class="panel panel-primary" id="kctd">
+        <div class="panel-heading">
+            <h3>课程特点</h3>
+        </div>
+        <div class="panel-body">
+
+        </div>
+    </div>
+
+
+    <div class="list-group"  id="cjwt">
+        <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">List group item heading</h4>
+            <p class="list-group-item-text">.啊手动阀第三方阿斯蒂芬撒地方阿斯蒂芬萨芬..</p>
+        </a>
+        <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">List group item heading</h4>
+            <p class="list-group-item-text">.啊手动阀第三方阿斯蒂芬撒地方阿斯蒂芬萨芬..</p>
+        </a>
+        <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">List group item heading</h4>
+            <p class="list-group-item-text">.啊手动阀第三方阿没什么值钱的shell斯蒂芬撒地方阿斯蒂芬萨芬..</p>
+        </a>
+        <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">List group item heading</h4>
+            <p class="list-group-item-text">.啊手动阀第三方阿斯蒂芬撒地方阿斯蒂芬萨芬..</p>
+        </a>
+        <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">List group item heading</h4>
+            <p class="list-group-item-text">.啊手动阀第三方阿斯蒂芬撒地方阿斯蒂芬萨芬..</p>
+        </a>
+        <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">List group item heading</h4>
+            <p class="list-group-item-text">.啊手动阀第三方阿斯蒂芬撒地方阿斯蒂芬萨芬..</p>
+        </a>
+    </div>
+
+
+    <div class="panel panel-danger" id="xxdd">
+        <div class="panel-heading">
+            <h3>学习地点</h3>
+        </div>
+        <div class="panel-body" style="max-width:100%;height:550px;border:#ccc solid 1px;" id="dituContent">
+        </div>
+        <div class="panel-footer">
+            杭州市 耀江国际大厦-A座 (杭州市拱墅区莫干山路100号)
+        </div>
+    </div>
+
+
+
+
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+    }
+
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(120.157439,30.285383);//定义一个中心点坐标
+        map.centerAndZoom(point,17);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.disableScrollWheelZoom();//禁用地图滚轮放大缩小，默认禁用(可不写)
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.disableKeyboard();//禁用键盘上下左右键移动地图，默认禁用(可不写)
+    }
+
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+        var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+        map.addControl(ctrl_nav);
+    }
+
+    //标注点数组
+    var markerArr = [{title:"不学网教学点",content:"杭州市 耀江国际大厦-A座 (杭州市拱墅区莫干山路100号)",point:"120.157601|30.285227",isOpen:1,icon:{w:64,h:64,l:0,t:0,x:30,lb:30}}
+    ];
+    //创建marker
+    function addMarker(){
+        for(var i=0;i<markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+            var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point,{icon:iconImg});
+            var iw = createInfoWindow(i);
+            var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+50,-50)});
+            marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                borderColor:"#808080",
+                color:"#333",
+                cursor:"pointer"
+            });
+
+            (function(){
+                var index = i;
+                var _iw = createInfoWindow(i);
+                var _marker = marker;
+                _marker.addEventListener("click",function(){
+                    this.openInfoWindow(_iw);
+                });
+                _iw.addEventListener("open",function(){
+                    _marker.getLabel().hide();
+                })
+                _iw.addEventListener("close",function(){
+                    _marker.getLabel().show();
+                })
+                label.addEventListener("click",function(){
+                    _marker.openInfoWindow(_iw);
+                })
+                if(!!json.isOpen){
+                    label.hide();
+                    _marker.openInfoWindow(_iw);
+                }
+            })()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+    }
+    //创建一个Icon
+    function createIcon(json){
+        console.log(json.w);
+        console.log(json.h);
+        var icon = new BMap.Icon("{{asset('/images/php/map.png')}}", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,0),offset:new BMap.Size(json.x-5,json.h-50)})
+        return icon;
+    }
+
+    $(function () {
+        initMap();//创建和初始化地图
+    });
+</script>
+</body>
+</html>
