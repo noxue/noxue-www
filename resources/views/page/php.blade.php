@@ -32,12 +32,12 @@
             <img src="{{asset('/images/php/section1.jpg')}}" />
         </div>
         <div class="xxpx">
-            <h1>不学网 - PHP学习之路</h1>
+            <h1>PHP学习之路</h1>
         </div>
         <div class="phpmysql">
-            <img style="height:220px;" class="html" src="{{asset('/images/php/html5.png')}}" /><br/><br/>
-            <img style="height:220px;" class="php" src="{{asset('/images/php/PHP-Mysql.png')}}" />&nbsp;&nbsp;
-            <img style="height:220px;"  class="laravel" src="{{asset('/images/php/laravel.png')}}" />
+            <img style="height:15rem;" class="html" src="{{asset('/images/php/html5.png')}}" /><br/><br/>
+            <img style="height:15rem;" class="php" src="{{asset('/images/php/PHP-Mysql.png')}}" />&nbsp;&nbsp;
+            <img style="height:15rem;"  class="laravel" src="{{asset('/images/php/laravel.png')}}" />
         </div>
     </div>
     <div class="section">
@@ -96,7 +96,7 @@
             <img src="{{asset('/images/php/section3.jpg')}}" />
         </div>
         <div class="section-31">
-            <h1>开班日期:2016年06月19日(星期一)</h1>
+            <h1>2016年06月19日</h1>
         </div>
         <div class="section-33">
             <h1>开课地点:杭州</h1>
