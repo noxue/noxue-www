@@ -157,16 +157,126 @@
     </div>
     <div class="section">
         <div class="bg">
-            <img src="{{asset('/images/php/section5.jpg')}}" />
+            <img src="{{asset('/images/php/section6.jpg')}}" />
         </div>
-        <div class="slide"><h3>第二屏的第一屏</h3></div>
-        <div class="slide"><h3>第二屏的第二屏</h3></div>
-        <div class="slide"><h3>第二屏的第三屏</h3></div>
-
+        <div class="slide">
+            <div class="container">
+                <div class="panel panel-primary">
+                    <div class="panel-heading"><h4>整套课程需要多少钱？</h4></div>
+                    <div class="panel-body">
+                        <p style="color:#ec4113;">课程周期4个月，共<b>80天320课</b>，近<b>800小时</b>，学费分两种情况，有基础和没基础。</p>
+                        <p style="color:#ff5921;">有基础：6999元</p>
+                        <p style="color:#2b70ec;">零基础：7999元</p>
+                        <p style="color:#444444;">基础包括：变量，条件语句，循环语句，数组，并能用这些语法解决简单的问题。(编程语言不限)</p>
+                        <p>以上价格<b>仅限第一个班(2017年6月19日)</b>，以后的班级根据情况会有所调整。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="container">
+                <div class="panel panel-primary">
+                    <div class="panel-heading"><h4>为什么我们的培训费用比同行便宜那么多？</h4></div>
+                    <div class="panel-body">
+                        <p><b>大家可以网上了解一下，PHP培训，目前平均费用在15000。那我们凭什么比同行便宜那么多呢？有如下原因：</b></p>
+                        <p>1.<b>学员的经济承受能力。</b>我问过一些在其他机构刚培训出来的学员，“你觉得这个培训值多少钱？你能承受多少钱的培训费用？”  “8000差不多”</p>
+                        <p>2.<b>招生成本。</b>因为目前我们的招生主要通过以前积累的网友，所以成本并不高，不需要花大量金钱在招生上。而同行机构成功招收一个学生至少花费5000元，这些钱自然是学员买单。</p>
+                        <p>3.<b>打造宣传案例，为后期宣传做铺垫。</b>第一期学员经过精心的培训之后，作为后面开班的榜样和参考。所以第一期是在完全不考虑赚钱的情况下进行。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="container">
+                <div class="panel panel-danger">
+                    <div class="panel-heading"><h4>就业后学员薪资水平如何？</h4></div>
+                    <div class="panel-body">
+                        详细信息<br/>
+                        详细信息<br/>
+                        详细信息<br/>
+                        详细信息<br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="container">
+                <div class="panel panel-success">
+                    <div class="panel-heading"><h4>什么学历适合做进入it行业？</h4></div>
+                    <div class="panel-body">
+                        详细信息<br/>
+                        详细信息<br/>
+                        详细信息<br/>
+                        详细信息<br/>
+                        详细信息<br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="container">
+                <div class="panel panel-success">
+                    <div class="panel-heading"><h4>零基础可以学会吗？</h4></div>
+                    <div class="panel-body">
+                        详细信息<br/>
+                        详细信息<br/>
+                        详细信息<br/>
+                        详细信息<br/>
+                        详细信息<br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="container">
+                <div class="panel panel-success">
+                    <div class="panel-heading"><h4>学习之后能找到满意的工作吗？</h4></div>
+                    <div class="panel-body">
+                        详细信息<br/>
+                        详细信息<br/>
+                        详细信息<br/>
+                        详细信息<br/>
+                        详细信息<br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="container">
+                <div class="panel panel-primary">
+                    <div class="panel-heading"><h4>师资和学习氛围如何？</h4></div>
+                    <div class="panel-body">
+                        详细信息<br/>
+                        详细信息<br/>
+                        详细信息<br/>
+                        详细信息<br/>
+                        详细信息<br/>
+                        详细信息<br/>
+                        详细信息<br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="container">
+                <div class="panel panel-primary">
+                    <div class="panel-heading"><h4>如果不想学了，可以退费吗？</h4></div>
+                    <div class="panel-body">
+                        详细信息<br/>
+                        详细信息<br/>
+                        详细信息<br/>
+                        详细信息<br/>
+                        详细信息<br/>
+                        详细信息<br/>
+                        详细信息<br/>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="section">
         <div class="bg">
-            <img src="{{asset('/images/php/section6.jpg')}}" />
+            <img src="{{asset('/images/php/section7.jpg')}}" />
         </div>
     </div>
 </div>
