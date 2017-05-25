@@ -74,8 +74,9 @@ body{
     text-align: center;
 }
 
-.phpmysql>img{
+.phpmysql img{
     margin:auto;
+    max-width:100%;
 }
 
 .xxpx{
@@ -119,4 +120,8 @@ body{
     height:150px;
     background: #ec9500;
     border-bottom-left-radius: 150px;
+}
+
+.cjwtslide .btn{
+    margin:5px;
 }

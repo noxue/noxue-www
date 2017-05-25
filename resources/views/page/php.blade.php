@@ -24,7 +24,7 @@
     <li data-menuanchor="kbxx"><a class="" href="#kbxx">开班信息</a></li>
     <li data-menuanchor="ksap"><a class="" href="#ksap">课时安排</a></li>
     <li data-menuanchor="cjwt"><a class="" href="#cjwt">常见问题</a></li>
-    <li data-menuanchor="gybxw"><a class="" href="#gybxw">关于不学网</a></li>
+    <li data-menuanchor="gybxw"><a class="" href="#gybxw">联系报名</a></li>
 </ul>
 <div id="fullpage">
     <div class="section active">
@@ -34,10 +34,10 @@
         <div class="xxpx">
             <h1>PHP学习之路</h1>
         </div>
-        <div class="phpmysql">
-            <img style="height:15rem;" class="html" src="{{asset('/images/php/html5.png')}}" /><br/><br/>
-            <img style="height:15rem;" class="php" src="{{asset('/images/php/PHP-Mysql.png')}}" />&nbsp;&nbsp;
-            <img style="height:15rem;"  class="laravel" src="{{asset('/images/php/laravel.png')}}" />
+        <div class="phpmysql row">
+            <div class="col-sm-12 col-xs-12"><img style="height:15rem;" class="html" src="{{asset('/images/php/html5.png')}}" /></div>
+            <div class="col-sm-6 col-xs-6"><img  style="height:15rem;" class="php" src="{{asset('/images/php/PHP-Mysql.png')}}" />&nbsp;</div>
+            <div class="col-sm-6 col-xs-6"><img style="height:15rem;"  class="laravel" src="{{asset('/images/php/laravel.png')}}" /></div>
         </div>
     </div>
     <div class="section">
@@ -88,7 +88,7 @@
                     </tbody>
                 </table>
             </div>
-            <a class="kcap-2 btn btn-lg btn-success" target="_blank" href="{{asset('images/php/php.png')}}">点击查看课程详情</a>
+            <a class="kcap-2 btn btn-lg btn-danger" target="_blank" href="{{asset('images/php/php.png')}}">点击查看课程详情</a>
         </div>
     </div>
     <div class="section">
@@ -110,7 +110,7 @@
             <img src="{{asset('/images/php/section4.jpg')}}" />
         </div>
         <div class="container">
-            <h1>4个月=16周=80天=720小时 高强度学习</h1>
+            <h1>4个月720小时 高强度学习</h1>
             <div class="ksap-1 table-responsive">
                 <table class="table table-bordered table-hover">
                     <thead>
@@ -162,6 +162,24 @@
         <div class="slide">
             <div class="container">
                 <div class="panel panel-primary">
+                    <div class="panel-heading"><h4>常见问题？</h4></div>
+                    <div class="panel-body cjwtslide">
+                        <a class="btn btn-danger" href="#cjwt/1">整套课程需要多少钱？</a>
+                        <a class="btn btn-success" href="#cjwt/2">为什么我们的培训费用比同行便宜那么多？</a>
+                        <a class="btn btn-danger" href="#cjwt/3">整个行业薪资水平如何？</a>
+                        <a class="btn btn-warning" href="#cjwt/4">什么学历适合做进入it行业？</a>
+                        <a class="btn btn-success" href="#cjwt/5">零基础可以学会吗？</a>
+                        <a class="btn btn-danger" href="#cjwt/6">学习之后能找到满意的工作吗？</a>
+                        <a class="btn btn-info" href="#cjwt/7">师资和学习氛围如何？</a>
+                        <a class="btn btn-warning" href="#cjwt/8">学习环境如何？</a>
+                        <a class="btn btn-warning" href="#cjwt/9">可以退费吗？</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="container">
+                <div class="panel panel-primary">
                     <div class="panel-heading"><h4>整套课程需要多少钱？</h4></div>
                     <div class="panel-body">
                         <p style="color:#ec4113;">课程周期4个月，共<b>80天320课</b>，近<b>800小时</b>，学费分两种情况，有基础和没基础。</p>
@@ -203,7 +221,11 @@
                 <div class="panel panel-success">
                     <div class="panel-heading"><h4>什么学历适合做进入it行业？</h4></div>
                     <div class="panel-body">
-
+                        <p>建议至少具备高中学历(包括中专/技校/职高)。</p>
+                        <p>一方面是编程需要一定的理论基础，比如简单的数学思想，理解能力。</p>
+                        <p>另一方面是理论知识的缺乏，会导致在it行业中走不了多远（当然极少数在工作中不断学习的人也是可以的。）</p>
+                        <p>那么学历低是不是意味着找不到工作呢？其实公司主要还是看能不能做事，以及学习能力。我身边就有一些高中之后培训出来的程序员，工资远超一些大学毕业生。主要在于自己是否坚持不断的学习。</p>
+                        <p>很多机构是个人都收，用一些销售技巧让学员报名，不管学了能不能找到工作，其实是很不负责的做法。</p>
                     </div>
                 </div>
             </div>
@@ -213,11 +235,9 @@
                 <div class="panel panel-success">
                     <div class="panel-heading"><h4>零基础可以学会吗？</h4></div>
                     <div class="panel-body">
-                        详细信息<br/>
-                        详细信息<br/>
-                        详细信息<br/>
-                        详细信息<br/>
-                        详细信息<br/>
+                        <p>零基础完全可以学会，任何人都是从零基础开始的。</p>
+                        <p>我们的整套课程针对的目标学员就是零基础，从未接触过编程的学员。从零开始逐步深入，直到达到就业标准。</p>
+                        <p>我们的讲师有多年自学经验，除了教会您知识，还会教您如何学习，让以后走得更远。</p>
                     </div>
                 </div>
             </div>
@@ -227,11 +247,9 @@
                 <div class="panel panel-success">
                     <div class="panel-heading"><h4>学习之后能找到满意的工作吗？</h4></div>
                     <div class="panel-body">
-                        详细信息<br/>
-                        详细信息<br/>
-                        详细信息<br/>
-                        详细信息<br/>
-                        详细信息<br/>
+                        <p>首先，每个人对满意的标准都不同。</p>
+                        <p>我们无法保证学了就能有上万的工资，但我们能保证的是，学会之后至少可以靠技术先生存。</p>
+                        <p>先生存，后发展，目光看长远一点，得到的会更多。3年PHP经验，一线城市一般都不会低于10000月薪。(当然，工作中也要继续保持学习，否则肯定原地踏步。)</p>
                     </div>
                 </div>
             </div>
@@ -241,13 +259,16 @@
                 <div class="panel panel-primary">
                     <div class="panel-heading"><h4>师资和学习氛围如何？</h4></div>
                     <div class="panel-body">
-                        详细信息<br/>
-                        详细信息<br/>
-                        详细信息<br/>
-                        详细信息<br/>
-                        详细信息<br/>
-                        详细信息<br/>
-                        详细信息<br/>
+                        <h3>关于讲师</h3>
+                        <p>姓名：刘荣飞&nbsp;&nbsp;&nbsp;&nbsp;籍贯：四川&nbsp;&nbsp;&nbsp;&nbsp;专业：虽然大学学的是计算机专业，但是几乎是自学。所以是一个放养的程序员。</p>
+                        <p>学习编程7年。</p>
+                        <p>格言：技术越分享越多。</p>
+                        <p>经历简介：大学未毕业就开始工作，虽然换过很多工作，但是都是在做编程工作，从php程序员到php项目主管，期间自学java，后来转java项目主管。</p>
+                        <p>由于一心想着做技术教育，深知教育和技术不一样，好的技术未必就是好的讲师，所以近一两年一直在培训机构做讲师，锻炼自己面对面授课的技巧。</p>
+                        <p>欢迎与我交流学习技巧，我也很乐意为想自学的朋友提供方向参考。有兴趣可以QQ联系我：30670835</p>
+                        <h3>学习氛围</h3>
+                        <p>每个班级学员人数不会很多，一般不超过10个，所以，老师能照顾到每一位同学。如果有人没有跟上，会进行单独辅导。</p>
+                        <p>晚上会有时间集体自习，提高大家的学习效率，以及时间利用率。</p>
                     </div>
                 </div>
             </div>
@@ -255,15 +276,24 @@
         <div class="slide">
             <div class="container">
                 <div class="panel panel-primary">
-                    <div class="panel-heading"><h4>如果不想学了，可以退费吗？</h4></div>
+                    <div class="panel-heading"><h4>学习环境如何？</h4></div>
                     <div class="panel-body">
-                        详细信息<br/>
-                        详细信息<br/>
-                        详细信息<br/>
-                        详细信息<br/>
-                        详细信息<br/>
-                        详细信息<br/>
-                        详细信息<br/>
+                        <h3>每个班级10人左右，电脑8g内存，固态硬盘</h3>
+                        <div class="row bgs">
+                            <img class="col-md-4 col-lg-4 col-xs-4 col-sm-4" src="{{asset('images/php/bgs1.jpg')}}" />
+                            <img class="col-md-4 col-lg-4 col-xs-4 col-sm-4"  src="{{asset('images/php/bgs2.jpg')}}" />
+                            <img  class="col-md-4 col-lg-4 col-xs-4 col-sm-4" src="{{asset('images/php/bgs3.jpg')}}" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="container">
+                <div class="panel panel-primary">
+                    <div class="panel-heading"><h4>可以退费吗？</h4></div>
+                    <div class="panel-body">
+                        <h3>我们支持任何理由的退费，退费按照报名费用，减去已经上过的课时，退还剩余部分。该退的一分不少。</h3>
                     </div>
                 </div>
             </div>
@@ -272,6 +302,11 @@
     <div class="section">
         <div class="bg">
             <img src="{{asset('/images/php/section7.jpg')}}" />
+        </div>
+        <div class="container" style="color:#fff;">
+            <h1>地址:耀江国际大厦A301(浙江省杭州市拱墅区莫干山路100号)</h1>
+            <h1>联系QQ:30670835<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=30670835&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:30670835:51" alt="了解更多信息" title="了解更多信息"/></a></h1>
+            <h1>联系电话:13758277505</h1>
         </div>
     </div>
 </div>

@@ -11,9 +11,9 @@ $(document).ready(function() {
             var section = $(this);
 
             if(1==index) {
-                $('.phpmysql>.html').addClass('animated flipInX');
-                $('.phpmysql>.php').addClass('animated fadeInLeft');
-                $('.phpmysql>.laravel').addClass('animated fadeInRight');
+                $('.html').addClass('animated flipInX');
+                $('.php').addClass('animated fadeInLeft');
+                $('.laravel').addClass('animated fadeInRight');
                 $(".xxpx").addClass('animated swing');
             }  else if(2==index){
                 $('.kcap-1').addClass('animated flip');
@@ -38,15 +38,15 @@ $(document).ready(function() {
                 }, 1000);
 
                 // $('.php').removeClass('fadeInLeft');
-                $('.phpmysql>.php').addClass("animated fadeOutLeft");
+                $('.php').addClass("animated fadeOutLeft");
                 setTimeout(function(){
-                    $('.phpmysql>.php').removeClass('fadeOutLeft');
+                    $('.php').removeClass('fadeOutLeft');
                 }, 1000);
 
                 // $('.laravel').removeClass('fadeInRight');
-                $('.phpmysql>.laravel').addClass("animated fadeOutRight");
+                $('.laravel').addClass("animated fadeOutRight");
                 setTimeout(function(){
-                    $('.phpmysql>.laravel').removeClass('fadeOutRight');
+                    $('.laravel').removeClass('fadeOutRight');
                 }, 1000);
 
                 $(".xxpx").removeClass('swing');
