@@ -19,13 +19,13 @@
 </head>
 <body>
 <div class="menuBox">
-    <ul id="myMenu">
-        <li data-menuanchor="kcjj"><a class="" href="#kcjj">课程内容</a></li>
-        <li data-menuanchor="kcap"><a class="" href="#kcap">课程安排</a></li>
-        <li data-menuanchor="kbxx"><a class="" href="#kbxx">开班信息</a></li>
-        <li data-menuanchor="ksap"><a class="" href="#ksap">课时安排</a></li>
-        <li data-menuanchor="cjwt"><a class="" href="#cjwt">常见问题</a></li>
-        <li data-menuanchor="gybxw"><a class="" href="#gybxw">联系报名</a></li>
+    <ul id="myMenu" class="row">
+        <li data-menuanchor="kcjj" class="col-md-2 col-sm-4 col-xs-6"><a class="" href="#kcjj">课程内容</a></li>
+        <li data-menuanchor="kcap"class="col-md-2 col-sm-4 col-xs-6"><a class="" href="#kcap">课程安排</a></li>
+        <li data-menuanchor="kbxx"class="col-md-2 col-sm-4 col-xs-6"><a class="" href="#kbxx">开班信息</a></li>
+        <li data-menuanchor="ksap"class="col-md-2 col-sm-4 col-xs-6"><a class="" href="#ksap">课时安排</a></li>
+        <li data-menuanchor="cjwt"class="col-md-2 col-sm-4 col-xs-6"><a class="" href="#cjwt">常见问题</a></li>
+        <li data-menuanchor="gybxw"class="col-md-2 col-sm-4 col-xs-6"><a class="" href="#gybxw">联系报名</a></li>
     </ul>
 </div>
 <div id="fullpage">
