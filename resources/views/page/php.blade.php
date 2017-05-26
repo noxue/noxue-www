@@ -99,7 +99,7 @@
             <img src="{{asset('/images/php/section4.jpg')}}" />
         </div>
         <div class="container">
-            <h3>4个月720小时 高强度学习</h3>
+            <h4>4个月720小时 高强度学习</h4>
             <div class="ksap-1 table-responsive">
                 <table class="table table-bordered">
                     <thead>
@@ -107,7 +107,7 @@
                     </thead>
                     <tbody>
                     <tr class="success">
-                        <th>08:30~09:25</th><td colspan="5">讲课</td><td colspan="2" rowspan="11" class="warning" style="vertical-align: middle">放假</td>
+                        <th>08:30~09:25</th><td colspan="5">讲课</td><td colspan="2" rowspan="9" class="warning" style="vertical-align: middle">放假</td>
                     </tr>
                     <tr class="success">
                         <th>09:30~10:25</th><td colspan="5">练习</td>
@@ -117,9 +117,6 @@
                     </tr>
                     <tr  class="info">
                         <th>11:30~12:00</th><td colspan="5">练习</td>
-                    </tr>
-                    <tr class="warning">
-                        <th>12:00~13:30</th><td colspan="5">午餐时间</td>
                     </tr>
                     <tr class="success">
                         <th>13:30~14:25</th><td colspan="5">讲课</td>
@@ -132,9 +129,6 @@
                     </tr>
                     <tr class="info">
                         <th>16:30~17:30</th><td colspan="5">练习</td>
-                    </tr>
-                    <tr class="warning">
-                        <th>17:30~19:00</th><td colspan="5">晚餐时间</td>
                     </tr>
                     <tr class="danger">
                         <th>19:30~20:30</th><td colspan="5">晚自习</td>
