@@ -54,19 +54,7 @@
                     </thead>
                     <tbody>
                     <tr class="warning">
-                        <th>html/html5</th><td>让学员熟悉代码，学会html标签和html5新特性。熟练使用html5标签编写出网页</td>
-                    </tr>
-                    <tr class="info">
-                        <th>css3</th><td>css3让网页更加漂亮，熟练使用css3样式和css3的各种高级用法。此时学员能制作出任何常见的静态页面效果</td>
-                    </tr>
-                    <tr class="success">
-                        <th>javascript</th><td>javascript实现动态效果，学会之后，可以实现网页上一些酷炫的动态效果，如：下拉菜单，图片轮播等。</td>
-                    </tr>
-                    <tr class="warning">
-                        <th>ajax</th><td>无刷新更新网页内容技术，让网页不用刷新就可以与服务端交互数据</td>
-                    </tr>
-                    <tr class="danger">
-                        <th>jquery</th><td>能让我们减少工作量，用更少的代码做更多的事情。</td>
+                        <th>html/html5/css3/javascript/jquery/ajax</th><td>让学员熟悉代码，学会html标签和html5新特性。熟练使用html5标签编写出网页,css3让网页更加漂亮，熟练使用css3样式和css3的各种高级用法。javascript实现动态效果。</td>
                     </tr>
                     <tr class="warning">
                         <th>bootstrap</th><td>全世界最流行的前端框架之一，让非专业的前段也能做出酷炫的网页。您现在正在看的页面也用到了这个框架。</td>
