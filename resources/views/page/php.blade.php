@@ -47,7 +47,6 @@
             <img src="{{asset('/images/php/section2.jpg')}}" />
         </div>
         <div class="container">
-            <h1>课程大纲</h1>
             <div class="kcap-1 table-responsive" style="width:100%;">
                 <table class="table table-bordered">
                     <thead>
@@ -112,7 +111,7 @@
             <img src="{{asset('/images/php/section4.jpg')}}" />
         </div>
         <div class="container">
-            <h1>4个月720小时 高强度学习</h1>
+            <h3>4个月720小时 高强度学习</h3>
             <div class="ksap-1 table-responsive">
                 <table class="table table-bordered">
                     <thead>
