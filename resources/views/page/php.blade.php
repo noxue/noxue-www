@@ -18,14 +18,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-<ul id="myMenu">
-    <li data-menuanchor="kcjj"><a class="" href="#kcjj">课程内容</a></li>
-    <li data-menuanchor="kcap"><a class="" href="#kcap">课程安排</a></li>
-    <li data-menuanchor="kbxx"><a class="" href="#kbxx">开班信息</a></li>
-    <li data-menuanchor="ksap"><a class="" href="#ksap">课时安排</a></li>
-    <li data-menuanchor="cjwt"><a class="" href="#cjwt">常见问题</a></li>
-    <li data-menuanchor="gybxw"><a class="" href="#gybxw">联系报名</a></li>
-</ul>
+<div class="menuBox">
+    <ul id="myMenu">
+        <li data-menuanchor="kcjj"><a class="" href="#kcjj">课程内容</a></li>
+        <li data-menuanchor="kcap"><a class="" href="#kcap">课程安排</a></li>
+        <li data-menuanchor="kbxx"><a class="" href="#kbxx">开班信息</a></li>
+        <li data-menuanchor="ksap"><a class="" href="#ksap">课时安排</a></li>
+        <li data-menuanchor="cjwt"><a class="" href="#cjwt">常见问题</a></li>
+        <li data-menuanchor="gybxw"><a class="" href="#gybxw">联系报名</a></li>
+    </ul>
+</div>
 <div id="fullpage">
     <div class="section active">
         <div class="bg">

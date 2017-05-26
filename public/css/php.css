@@ -13,12 +13,16 @@ body{
     text-align: left;
 }
 
-#myMenu{
-    list-style: none;
+.menuBox{
     position: fixed;
     top:10px;
-    left:20px;
     z-index: 1000;
+    width:100%;
+}
+
+#myMenu{
+    list-style: none;
+    margin:auto;
 }
 
 #myMenu>li{
