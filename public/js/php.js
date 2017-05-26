@@ -27,7 +27,7 @@ $(document).ready(function() {
                 $(".section-32").addClass('animated fadeInRight');
                 $(".section-33").addClass('animated rotateIn');
             } else if (6==index) {
-                $('.lxfs h3').addClass('animated bounceInLeft');
+                $('.lxfs h3').addClass('animated swing');
             }
         },
         onLeave: function(index, nextIndex, direction) {
@@ -76,10 +76,7 @@ $(document).ready(function() {
                     $('.section-33').removeClass('rotateOut');
                 }, 1000);
             } else if(6==index){
-                $('.lxfs h3').addClass("animated bounceOutRight");
-                setTimeout(function(){
-                    $('.lxfs h3').removeClass('bounceOutRight');
-                }, 1000);
+                $(".lxfs h3").removeClass('swing');
             }
         }
     });
