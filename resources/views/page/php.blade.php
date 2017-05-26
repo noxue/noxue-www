@@ -287,10 +287,10 @@
         <div class="bg">
             <img src="{{asset('/images/php/section7.jpg')}}" />
         </div>
-        <div class="container" style="color:#fff;">
-            <h1>地址:耀江国际大厦A301(浙江省杭州市拱墅区莫干山路100号)</h1>
-            <h1>联系QQ:30670835<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=30670835&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:30670835:51" alt="了解更多信息" title="了解更多信息"/></a></h1>
-            <h1>联系电话:13758277505</h1>
+        <div class="container lxfs" style="color:#fff;">
+            <h3>地址:耀江国际大厦A301(浙江省杭州市拱墅区莫干山路100号)</h3>
+            <h3>联系QQ:30670835<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=30670835&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:30670835:51" alt="了解更多信息" title="了解更多信息"/></a></h3>
+            <h3>联系电话:13758277505</h3>
         </div>
     </div>
 </div>

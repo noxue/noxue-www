@@ -26,6 +26,8 @@ $(document).ready(function() {
                 $(".section-31").addClass('animated fadeInLeft');
                 $(".section-32").addClass('animated fadeInRight');
                 $(".section-33").addClass('animated rotateIn');
+            } else if (6==index) {
+                $('.lxfs h3').addClass('animated bounceInLeft');
             }
         },
         onLeave: function(index, nextIndex, direction) {
@@ -72,6 +74,11 @@ $(document).ready(function() {
                 $('.section-33').addClass("animated rotateOut");
                 setTimeout(function(){
                     $('.section-33').removeClass('rotateOut');
+                }, 1000);
+            } else if(6==index){
+                $('.lxfs h3').addClass("animated bounceOutRight");
+                setTimeout(function(){
+                    $('.lxfs h3').removeClass('bounceOutRight');
                 }, 1000);
             }
         }
