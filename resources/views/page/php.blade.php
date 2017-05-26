@@ -34,7 +34,7 @@
             <img src="{{asset('/images/php/section1.jpg')}}" />
         </div>
         <div class="xxpx">
-            <h1>PHP学习之路</h1>
+            <h1>PHP实地培训</h1>
         </div>
         <div class="phpmysql row">
             <div class="col-sm-12 col-xs-12"><img style="height:15rem;" class="html" src="{{asset('/images/php/html5.png')}}" /></div>
