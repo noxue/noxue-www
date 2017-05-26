@@ -3,6 +3,7 @@
  */
 $(document).ready(function() {
     $('#fullpage').fullpage({
+        normalScrollElements: '.table-responsive',
         anchors: ['kcjj', 'kcap', 'kbxx', 'ksap', 'cjwt', 'gybxw'],
 //            sectionsColor: ['#222', '#00b9ec', '#ec9500', '#25bbff', '#51ff7c', '#ff64ae'],
         menu: '#myMenu',

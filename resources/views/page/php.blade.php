@@ -46,8 +46,8 @@
         </div>
         <div class="container">
             <h1>课程大纲</h1>
-            <div class="kcap-1 table-responsive">
-                <table class="table table-bordered table-hover">
+            <div class="kcap-1 table-responsive" style="width:100%;">
+                <table class="table table-bordered">
                     <thead>
                     <tr style="background-color:#FF8F00; color:#eee;"><th style="width:200px;">课程</th><th>内容</th></tr>
                     </thead>
@@ -112,7 +112,7 @@
         <div class="container">
             <h1>4个月720小时 高强度学习</h1>
             <div class="ksap-1 table-responsive">
-                <table class="table table-bordered table-hover">
+                <table class="table table-bordered">
                     <thead>
                     <tr style="background-color:#FF8F00; color:#eee;"><th style="width:200px;">#</th><th>星期一</th><th>星期二</th><th>星期三</th><th>星期四</th><th>星期五</th><th>星期六</th><th>星期日</th></tr>
                     </thead>
